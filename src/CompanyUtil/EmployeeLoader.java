@@ -28,8 +28,8 @@ public class EmployeeLoader {
                             , sData[2]   //name
                             , Integer.parseInt(sData[3]) //position
                             , Float.parseFloat(sData[4]) //required work hours
-                            , Float.parseFloat(sData[5]  //basic or hourly wage
-                    ));
+                            , Float.parseFloat(sData[5])  //basic or hourly wage
+                    );
                     break;
                 case "manager":
                     temp = new Manager(Integer.parseInt(sData[0])
